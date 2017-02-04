@@ -1,0 +1,8 @@
+<h1>
+  {{title}}
+  <button (click)="child()">childpage</button>
+  <nav>
+    <a [routerLink]="[{ outlets: { mainoutlet: ['child'] } }]">Contact</a>    
+  </nav>
+  <router-outlet name="mainoutlet"></router-outlet>
+</h1>

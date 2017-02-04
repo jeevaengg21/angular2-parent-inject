@@ -1,0 +1,1 @@
+[{"path":"","loadChildren":"app/login/login.lazy.module#LazyModule"},{"path":"home","loadChildren":"app/home/home.lazy.module#LazyModule"},{"path":"child","loadChildren":"app/child/child.lazy.module#LazyModule"},{"path":"child2","loadChildren":"app/child2/child2.lazy.module#Child2Module"}]

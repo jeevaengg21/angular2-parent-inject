@@ -1,3 +1,12 @@
 <h1>
-  {{title}}
+  {{title}} {{count}}
 </h1>
+
+<button (click)="login()">Login</button>
+<button (click)="home()">Home</button>
+<button (click)="lazychild()">LazyChild</button>
+<button (click)="logout()">Logout</button>
+<button (click)="replyChild()">Reply</button>
+
+<div>subrouter</div>
+<router-outlet></router-outlet>
