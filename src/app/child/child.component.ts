@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './child.component.html',
 })
 export class ChildComponent implements IChild {
-  title = 'Child page';
+  title : String= 'Child page';
   respose = '';
   ic: IChild;
   /*
@@ -43,5 +43,6 @@ export class ChildComponent implements IChild {
   setTest(test: String): void {
 
     console.log("status >> " + test)
+    this.title = test;
   }
 }

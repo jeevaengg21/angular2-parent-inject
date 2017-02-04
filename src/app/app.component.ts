@@ -118,7 +118,7 @@ export class AppComponent implements OnInit {
   public replyChild() {
     this.count = this.count + 1;
     console.log(this.count + ' >> ' + this.anychild);
-    //this.anychild.setTest("hi there");
+    this.anychild.setTest("hi there");
   }
 
   public loadDynamicRoute() {
