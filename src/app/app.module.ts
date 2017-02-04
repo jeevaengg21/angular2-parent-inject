@@ -7,14 +7,13 @@ import { RouterModule, Routes, Router, Route } from '@angular/router';
 import { AppComponent } from './app.component';
 import { MainService } from './app.service';
 import { AppRoutingModule } from './app.routing';
-import { SharedModule } from './app.shared.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule, SharedModule, AppRoutingModule,
+    BrowserModule, AppRoutingModule,
     FormsModule,
     HttpModule,
     ReactiveFormsModule,
